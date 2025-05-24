@@ -1,18 +1,13 @@
 import type { Config } from "tailwindcss";
 
 export default {
-<<<<<<< HEAD
     darkMode: ["class"],
     content: [
-=======
-  content: [
->>>>>>> b64adce (Set up initial Next.js project with ESLint, Tailwind, and basic structure)
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-<<<<<<< HEAD
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
@@ -64,14 +59,4 @@ export default {
   	}
   },
   plugins: [require("tailwindcss-animate")],
-=======
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
-  },
-  plugins: [],
->>>>>>> b64adce (Set up initial Next.js project with ESLint, Tailwind, and basic structure)
 } satisfies Config;
