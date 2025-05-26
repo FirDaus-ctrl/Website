@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
-import { Marquee } from "@/components/ui/marquee"
 
 
 export default function AboutPage() {
@@ -151,6 +150,4 @@ export function TimelineDemo() {
       </div>
     </div>
   );
-  
-
 }

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer base {
   :root {
 
@@ -54,11 +56,7 @@
     --chart-5: 27 87% 67%;
 
     --radius: 0.5rem
-  ;
-
-    --sky-400: #38bdf8;
-
-    --sky-500: #0ea5e9}
+  }
   .dark {
 
     --background: 0 0% 3.9%;
@@ -108,16 +106,10 @@
     --chart-4: 280 65% 60%;
 
     --chart-5: 340 75% 55%
-  ;
-
-    --sky-400: #38bdf8;
-
-    --sky-500: #0ea5e9}
-  .theme {
-
-    --animate-marquee: marquee var(--duration, 30s) linear infinite
   }
 }
+
+
 
 @layer base {
   * {
@@ -125,13 +117,5 @@
   }
   body {
     @apply bg-background text-foreground;
-  }
-}
-
-@theme inline {
-  @keyframes marquee {
-  to {
-    transform: translateX(-50%);
-    }
   }
 }
