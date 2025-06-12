@@ -1,0 +1,2 @@
+gh unset GITHUB_TOKEN
+npm run dev
